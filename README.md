@@ -8,3 +8,5 @@ Sistema desenvolvido para fins acadêmicos, que publica serviços gerais, realiz
 Casos de uso em Wiki:
 
 Arquivos de casos de uso cedidos por Anne Caroline Rocha: https://github.com/carolsprak
+
+Roteiros de teste:
