@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <font face= "Verdana" font size= "2">
+    <h1>UC003 - Cadastrar anúncio</h1>
+        <h3>Descrição</h3>
+    <div>
+        <ul>
+            <li>Este caso de uso permite que usuários cadastrados possam cadastrar anúncios no sistema.</li>
+        </ul>
+    </div>
+    <h3>Perfil</h3>
+    <div>
+        <ul>
+            <li>Prestador.</li>
+        </ul>
+    </div>
+    <h3>Pré-condições</h3>
+    <div>
+        <ul>
+            <li>Usuário ter realizado um cadastro no sistema. <a href="https://github.com/ericatoliveira/projetopublicazo/wiki/UC001" style="color:black"target="Cadastrar usuário">UC001</a></li>
+            <li>Usuário ter realizado autenticação no sistema. <a href="https://github.com/ericatoliveira/projetopublicazo/wiki/UC002" style="color:black"target="Cadastrar usuário">UC002</a></li>
+        </ul>
+    </div>
+       <h3>Caminho no sistema</h3>
+    <div>
+        <ul>
+            <li>Página Inicial > Entrar > Crie seu anúncio</li>
+        </ul>
+    </div>
+    <h3>Fluxo principal</h3>
+    <div>
+        <ol>
+            <li>O usuário preenche as informações: Categoria do Serviço, Serviço, Modo de Atendimento e Periodicidade do Pagamento.</li>
+            <li>O usuário clica no botão 'Criar meu serviço'.</li>
+            <li>O usuário preenche o preço.</li>
+            <li>O usuário clica no botão 'Salvar'.</li>
+            <li>O usuário preenche o título e descrição.</li>
+            <li>O usuário clica no botão 'Salvar'.</li>
+            <li>O usuário faz upload de fotos</li>
+            <li>O usuário clica no botão 'Salvar'</li>
+            <li>O usuário preenche o endereço.</li>
+            <li>O usuário clica no botão 'Salvar'</li>
+            <li>O usuário marca os detalhes do serviço: Autônomo, Tem CNPJ, Emite nota fiscal, Tem garantia.</li>
+            <li>O usuário clica no botão 'Salvar'</li>
+            <li>O sistema publica o anúncio.</li>
+            <li>O anúncio ficará disponível na página inicial do sistema.</li>
+            <li>O anúncio poderá ser alterado na seção 'Serviços Anunciados'.</li>
+        </ol>
+    </div>
+    <h3>Fluxo alternativo 1</h3>
+    <div>
+        <ol>
+            <li>O usuário clica na opção 'Despublicar'.</li>
+            <li>O sistema despublica o anúncio.</li>
+            <li>O anúncio não ficará disponível na página inicial do sistema.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de exceção 1</h3>
+    <div>
+        <ol>
+            <li>O usuário não preenche algum campo obrigatório.</li>
+            <li>O usuário clica no botão 'Salvar'.</li>
+            <li>O sistema exibe uma mensagem de erro.</li>
+        </ol>
+    </div>
+      <h3>Regras de negócio</h3>
+    <div>
+        <ol>
+            <li>Apenas a sessão de fotos não é obrigatória.</li>
+        </ol>
+    </div>
+    <h3>Telas</h3>
+    <div>
+          <img src="https://github.com/ericatoliveira/projetopublicazo/blob/master/telauc003.png" height="450">
+    </div>
+    
+</font>
+</body>
+</html>

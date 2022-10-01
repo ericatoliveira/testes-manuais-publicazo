@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <font face= "Verdana" font size= "2">
+    <h1>UC005 - Gerenciar serviços</h1>
+        <h3>Descrição</h3>
+    <div>
+        <ul>
+            <li>Este caso de uso permite que usuários cadastrados visualizem serviços anunciados, reservados e contratados.</li>
+        </ul>
+    </div>
+    <h3>Perfil</h3>
+    <div>
+        <ul>
+            <li>Cliente ou prestador.</li>
+        </ul>
+    </div>
+    <h3>Pré-condições</h3>
+    <div>
+        <ul>
+            <li>Usuário ter realizado um cadastro no sistema. <a href="https://github.com/ericatoliveira/projetopublicazo/wiki/UC001" style="color:black"target="Cadastrar usuário">UC001</a></li>
+            <li>Usuário ter realizado autenticação no sistema. <a href="https://github.com/ericatoliveira/projetopublicazo/wiki/UC002" style="color:black"target="_blank">UC002</a></li>
+        </ul>
+    </div>
+       <h3>Caminho no sistema</h3>
+    <div>
+        <ul>
+            <li>Página Inicial > Entrar > Menu lateral > Serviços anunciados</li>
+        </ul>
+    </div>
+    <h3>Fluxo principal</h3>
+    <div>
+        <ol>
+            <li>O usuário clica na opção Serviços Anunciados.</li>
+            <li>O sistema exibe a lista de serviços anunciados pelo prestador.</li>
+            <li>O usuário clica no botão 'Editar'.</li>
+            <li>O sistema carrega os dados do serviço selecionado.</li>
+            <li>O usuário altera alguma informação.</li>
+            <li>O usuário clica no botão 'Salvar'.</li>
+            <li>O sistema exibe uma mensagem de sucesso.</li>
+            <li>O usuário clica em despublicar/publicar o anúncio.</li>
+            <li>O sistema exibe uma mensagem de sucesso.</li>
+        </ol>
+    </div>
+    <h3>Fluxo alternativo 1</h3>
+    <div>
+        <ol>
+            <li>O usuário clica no nome do serviço.</li>
+            <li>O sistema exibe as informações do serviço.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de alternativo 2</h3>
+    <div>
+        <ol>
+            <li>O usuário clica na opção 'Serviços Reservados'.</li>
+            <li>O sistema exibe a lista de serviços que foram reservados por clientes.</li>
+            <li>O usuário clica na opção 'Avaliar cliente'.</li>
+            <li>O sistema abre uma janela de avaliação.</li>
+            <li>O usuário informa o número de estrelas 1-5 e preenche um comentário para o cliente.</li>
+            <li>O usuário clica em 'Salvar'.</li>
+            <li>O sistema fecha a janela de avaliação.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de alternativo 3</h3>
+    <div>
+        <ol>
+            <li>O usuário clica na opção 'Serviços Contratados'.</li>
+            <li>O sistema exibe a lista de serviços que foram contratados como cliente.</li>
+            <li>O usuário clica na opção 'Avaliar serviço'.</li>
+            <li>O sistema abre uma janela de avaliação.</li>
+            <li>O usuário informa o número de estrelas 1-5 e preenche um comentário para o serviço.</li>
+            <li>O usuário clica em 'Salvar'.</li>
+            <li>O sistema fecha a janela de avaliação.</li>
+        </ol>
+    </div>
+    <h3>Regras de negócio</h3>
+    <div>
+        <ol>
+            <li>O sistema só deverá permitir a publicação de serviços que tenham todas as informações preenchidas.</li>
+            <li>O sistema só deverá permitir avaliar os serviços encerrados, cujo período seja anterior à data atual.</li>
+            <li>O sistema só deverá permitir avaliar os clientes, cujo período do serviço seja anterior à data atual.</li>
+        </ol>
+    </div>
+    <h3>Telas</h3>
+    <div>
+          <img src="https://github.com/ericatoliveira/projetopublicazo/blob/master/telauc005.png" height="450">
+    </div>
+    
+</font>
+</body>
+</html>
