@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+</head>
+<body>
+    <font face= "Verdana" font size= "2">
+    <h1>UC008 - Gerenciar perfil</h1>
+        <h3>Descrição</h3>
+    <div>
+        <ul>
+            <li>Este caso de uso permite que usuários cadastrados atualizar seus dados pessoais.</li>
+        </ul>
+    </div>
+    <h3>Perfil</h3>
+    <div>
+        <ul>
+            <li>Usuário.</li>
+        </ul>
+    </div>
+    <h3>Pré-condições</h3>
+    <div>
+        <ul>
+            <li>Usuário ter realizado um cadastro no sistema. <a href="https://github.com/ericatoliveira/testes-manuais-publicazo/wiki/UC001" style="color:black"target="Cadastrar usuário">UC001</a></li>
+            <li>Usuário ter realizado autenticação no sistema. <a href="https://github.com/ericatoliveira/testes-manuais-publicazo/wiki/UC002" style="color:black"target="Cadastrar usuário">UC002</a></li>
+        </ul>
+    </div>
+           <h3>Caminho no sistema</h3>
+    <div>
+        <ul>
+            <li>Página Inicial > Menu lateral > Editar perfil</li>
+        </ul>
+    </div>
+    <h3>Fluxo principal</h3>
+    <div>
+        <ol>
+            <li>O usuário pode atualizar os campos: Nome, telefone, descrição, e-mail, senha e confirmar senha.</li>
+            <li>O usuário clica no botão 'Alterar'.</li>
+            <li>O sistema exibe uma mensagem de sucesso.</li>
+            <li>O sistema retorna para a página inicial.</li>
+        </ol>
+    </div>
+    <h3>Fluxo alternativo 1</h3>
+    <div>
+        <ol>
+            <li>O usuário clica na opção 'Remover conta'.</li>
+            <li>O usuário confirma a remoção da conta.</li>
+            <li>O sistema remove os serviços publicados pelo usuário.</li>
+            <li>O sistema realiza o logout do usuário.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de exceção 1</h3>
+    <div>
+        <ol>
+            <li>O usuário preenche o campo senha e não preencher o campo confirmar senha.</li>
+            <li>O sistema exibe uma mensagem de erro.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de exceção 2</h3>
+    <div>
+        <ol>
+            <li>O usuário deixa em branco algum campo obrigatório.</li>
+            <li>O sistema exibe uma mensagem de erro.</li>
+        </ol>
+    </div>
+    <h3>Fluxo de exceção 3</h3>
+    <div>
+        <ol>
+            <li>O usuário preenche algum campo com dados inválidos.</li>
+            <li>O sistema exibe uma mensagem de erro.</li>
+        </ol>
+    </div>
+       <h3>Regras de negócio</h3>
+    <div>
+        <ol>
+            <li>Os campos obrigatórios são: Nome e e-mail.</li>
+            <li>O campo e-mail deve ser único por usuário.</li>
+        </ol>
+    </div>
+    <h3>Telas</h3>
+    <div>
+          <img src="https://github.com/ericatoliveira/testes-manuais-publicazo/blob/master/uc-print-screens/telauc008.png" height="450">
+    </div>
+</font>
+</body>
+</html>
